@@ -5,5 +5,30 @@
     list-style: none;
     text-decoration: dotted;
     color:brown
-
+}
+button {
+    background-color: white;
+    color:brown;
+    border: 2px solid brown; 
+    width: 170px;
+    border-radius: 4px;
+    margin: 24px;
+    display: inline-block
+}
+button {
+    transition-duration: 0.4s;
+  }
+  
+  button:hover {
+    background-color:brown;
+    color: white;
+    box-shadow: 0 0 30px   brown;
+  }
+  .cavaleiros{
+    border: 5px solid;
+    border-color:  brown;
+    border-radius: 4px;
+    padding: 10px;
+    background-color: rgb(36, 33, 1);
+    margin: 15px;
 }
